@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Uniform';
+    src: url('../fonts/UniformBlack.eot');
+    src: local('Uniform Black Regular'), local('UniformBlack'),
+        url('../fonts/UniformBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniformBlack.woff2') format('woff2'),
+        url('../fonts/UniformBlack.woff') format('woff'),
+        url('../fonts/UniformBlack.ttf') format('truetype'),
+        url('../fonts/UniformBlack.svg#UniformBlack') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+	font-family: 'Uniform-Black', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+/*images*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*grid*/
+.container {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*sections*/
+.page-header{
+	height: 325px;
+}
+
+/*step-section*/
+.steps-section > .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.steps-section{
+	color: #ffffff;
+	background-color: #13215a;
+	height: 149px;
+	display: flex;
+	align-items: center;
+}
+
+.steps-section p {
+	font-weight: 700;
+	font-family: 'Uniform';
+	font-size: 14px;
+}
+
+.circle{
+	box-sizing: border-box;
+	width: 83px;
+	height: 83px;
+	border-radius: 50%;
+	border: 2.5px solid #ffffff;
+	/* Style for "1" */
+	font-family: 'Uniform';
+	font-size: 45px;
+	font-weight: 400;
+	/* Text style for "1," */
+	text-align: center;
+	line-height: 76px;
+}
+
+.arrows{
+	display: inline-block;
+}
+
+.arrow{
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent;
+	border-left: 12px solid #ffffff;
+	padding-right: 5px;
+	float: left;
+}
+
+
+/*awards-section*/
+.awards-section{
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.awards-section > .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.award-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+}
+
+.award-box h1{
+	color: #13215a;
+	font-family: "Uniform";
+	font-size: 32px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.prize{
+	width: 324px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "Uniform";
+	font-size: 32px;
+	font-weight: 400;
+	background-color: #13215a;
+	line-height: 55px;
+	text-align: center;
+}
+
+.btn{
+	width: 248px;
+	height: 45px;
+	border-radius: 45px;
+	border: 0.5px solid #13215a;
+	color: #13215a;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 45px;
+}
+
+.btn-active{
+	border: 0.5px solid #ffffff;
+	color: #ffffff;
+	font-size: 16px;
+	background-image: linear-gradient(to left, #33bbd7 0%, #0098d3 100%); 
+}
+
+.games{
+	height: 350px;
+	width: 60%;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.game-xbox{
+	width: 190px;
+	height: 218px;
+	position: absolute;
+	background-image: url(../img/FIFA_19_XBOX_ONE_Cover.png);
+}
+
+.game-ps{
+	width: 190px;
+	height: 218px;
+	margin-left: 250px;
+	position: absolute;
+	background-image: url(../img/FIFA_19_PS4_Cover.png);
+}
+
+.game-pc{
+	width: 179px;
+	height: 223px;
+	margin-left: 125px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 50px;
+	background-image: url(../img/FIFA_19_PC_Cover.png);
+}
+
+.consoles{
+	height: 350px;
+	width: 60%;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.console-xbox{
+	width: 260px;
+	height: 265px;
+	position: absolute;
+	background-image: url(../img/xbox.png);
+}
+
+.console-ps{
+	width: 248px;
+	height: 247px;
+	margin-left: 200px;
+	position: absolute;
+	background-image: url(../img/ps.png);
+}

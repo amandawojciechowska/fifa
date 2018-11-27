@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Uniform';
+    src: url('UniformBlack.eot');
+    src: local('Uniform Black Regular'), local('UniformBlack'),
+        url('UniformBlack.eot?#iefix') format('embedded-opentype'),
+        url('UniformBlack.woff2') format('woff2'),
+        url('UniformBlack.woff') format('woff'),
+        url('UniformBlack.ttf') format('truetype'),
+        url('UniformBlack.svg#UniformBlack') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
